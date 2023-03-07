@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation-bar {
+    background-color: #1bbabd;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 5%;
+}
+
+.navigation-bar > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.hero-left {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+#about-me {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-me-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3% 8%;
+}
+
+.about-me-body > * {
+    margin: 35px;
+}
+
+.headshot {
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    border: 1px double gray;
+}
+
+.background-img {
+    position: absolute;
+    opacity: 0.3;
+    max-width: 100%;
+    top: -150px;
+}
+
+.main-description-text {
+    font-weight: 200;
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.contact-me-link {
+    text-decoration: none;
+    color: #1a8789;
+    font-weight: 900;
+}
+
+#projects {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 20px 10px grey;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.project-screenshot {
+    width: 100%;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.tech-icon {
+    width: 50px;
+}
+
+.project-description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#contact-me-section {
+    background-color: #e2e3e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-me-header {
+    font-size: 2rem;
+}
+
+.contact-me-subtitle {
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    font-weight: 100;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.highlight-screenshot {
+    box-shadow: 0 0 5px 4px #1bbabd;
+}
+
+.contact-link {
+    transition: 0.25s;
+}
+
+.contact-link:hover {
+  transform: scale(1.5);
+}
